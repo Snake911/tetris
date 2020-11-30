@@ -1,8 +1,8 @@
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext("2d");
 const sizeItem = 20;
-const widthMatrix = 500;
-const heightMatrix = 2000;
+const widthMatrix = 100;
+const heightMatrix = 200;
 canvas.width = widthMatrix*sizeItem;
 canvas.height = heightMatrix*sizeItem;
 const matrix = [];
